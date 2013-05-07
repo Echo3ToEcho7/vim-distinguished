@@ -1,5 +1,6 @@
 " Author: Kim Silkebækken <kim.silkebaekken+vim@gmail.com>
 " Source repository: https://github.com/Lokaltog/vim-distinguished
+" Modified by: Colin O'Brien <obrien.colin+github@gmail.com>
 
 " Initialization {{{
 	set background=dark
@@ -37,7 +38,7 @@
 "	   | Highlight group                |  CTFG |  CTBG |    CTAttributes | || |   GUIFG |    GUIBG |   GUIAttributes |
 "	   |--------------------------------|-------|-------|-----------------| || |---------|----------|-----------------|
 call s:ColorDictParser({
-	\   'Normal'                      : [    231,     16,               '',      'ffffff',  '000000',               '']
+	\   'Normal'                      : [    231,     16,               '',      'ffffff',  '26292c',               '']
 	\ , 'Visual'                      : [    240,    253,               '',      '585858',  'dadada',               '']
 	\
 	\ , 'Cursor'                      : [     '',     '',               '',      'ffffff',  'dd4010',               '']
@@ -49,7 +50,7 @@ call s:ColorDictParser({
 	\
 	\ , 'Folded'                      : [    249,    234,               '',      'b2b2b2',  '1c1c1c',               '']
 	\ , 'FoldColumn'                  : [    243,    234,               '',      '767676',  '1c1c1c',               '']
-	\ , 'SignColumn'                  : [    231,    233,           'bold',      'ffffff',  '121212',           'bold']
+	\ , 'SignColumn'                  : [    231,    233,           'bold',      'ffffff',  '26292c',           'bold']
 	\ , 'ColorColumn'                 : [      '',   233,               '',            '',  '262626',               '']
 	\
 	\ , 'StatusLine'                  : [    231,    236,           'bold',      'ffffff',  '303030',           'bold']
@@ -67,10 +68,10 @@ call s:ColorDictParser({
 	\ , 'WarningMsg'                  : [    202,     '',           'bold',      'ff5f00',        '',           'bold']
 	\ , 'ErrorMsg'                    : [    196,     '',           'bold',      'ff0000',        '',           'bold']
 	\
-	\ , 'Comment'                     : [    243,    233,               '',      '767676',  '121212',               '']
-	\ , 'vimCommentTitleLeader'       : [    250,    233,               '',      'bcbcbc',  '121212',               '']
-	\ , 'vimCommentTitle'             : [    250,    233,               '',      'bcbcbc',  '121212',               '']
-	\ , 'vimCommentString'            : [    245,    233,               '',      '8a8a8a',  '121212',               '']
+	\ , 'Comment'                     : [    243,    233,               '',      '767676',  '26292c',               '']
+	\ , 'vimCommentTitleLeader'       : [    250,    233,               '',      'bcbcbc',  '26292c',               '']
+	\ , 'vimCommentTitle'             : [    250,    233,               '',      'bcbcbc',  '26292c',               '']
+	\ , 'vimCommentString'            : [    245,    233,               '',      '8a8a8a',  '26292c',               '']
 	\
 	\ , 'TabLine'                     : [    231,    238,               '',      'ffffff',  '444444',               '']
 	\ , 'TabLineSel'                  : [    255,     '',           'bold',      'eeeeee',        '',           'bold']
@@ -90,7 +91,7 @@ call s:ColorDictParser({
 	\ , 'Statement'                   : [    186,     '',           'bold',      'd7d787',        '',           'bold']
 	\ , 'PreProc'                     : [    247,     '',               '',      '9e9e9e',        '',               '']
 	\ , 'Type'                        : [     67,     '',           'bold',      '5f87af',        '',           'bold']
-	\ , 'String'                      : [    143,     '',               '',      'afaf5f',        '',               '']
+	\ , 'String'                      : [    143,     '',               '',      '5ea93a',        '',               '']
 	\ , 'Number'                      : [    173,     '',               '',      'd7875f',        '',               '']
 	\ , 'Define'                      : [    173,     '',               '',      'd7875f',        '',               '']
 	\ , 'Error'                       : [    208,    124,               '',      'ff8700',  'af0000',               '']
@@ -125,8 +126,8 @@ call s:ColorDictParser({
 	\ , 'PHPInterfaceTag'             : [    253,     '',               '',      'dadada',        '',               '']
 	\ , 'PHPFunctionTag'              : [    222,     '',           'bold',      'ffd787',        '',           'bold']
 	\
-	\ , 'pythonDocString'             : [    240,    233,               '',      '585858',  '121212',               '']
-	\ , 'pythonDocStringTitle'        : [    245,    233,               '',      'dadada',  '121212',               '']
+	\ , 'pythonDocString'             : [    240,    233,               '',      '585858',  '26292c',               '']
+	\ , 'pythonDocStringTitle'        : [    245,    233,               '',      'dadada',  '26292c',               '']
 	\ , 'pythonRun'                   : [     65,     '',               '',      '5f875f',        '',               '']
 	\ , 'pythonBuiltinObj'            : [     67,     '',           'bold',      '5f87af',        '',           'bold']
 	\ , 'pythonSelf'                  : [    250,     '',           'bold',      'bcbcbc',        '',           'bold']
